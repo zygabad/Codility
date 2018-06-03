@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Codility.iml" filepath="$PROJECT_DIR$/Codility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1_iterations/Lesson1_iterations.iml" filepath="$PROJECT_DIR$/Lesson1_iterations/Lesson1_iterations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2_arrays/Lesson2_arrays.iml" filepath="$PROJECT_DIR$/Lesson2_arrays/Lesson2_arrays.iml" />
     </modules>
   </component>
 </project>
