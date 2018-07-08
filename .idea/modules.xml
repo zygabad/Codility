@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson2_arraysOddOccurences/Lesson2_arraysOddOccurences.iml" filepath="$PROJECT_DIR$/Lesson2_arraysOddOccurences/Lesson2_arraysOddOccurences.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3_TimeComplexity_FrgJmp/Lesson3_TimeComplexity_FrgJmp.iml" filepath="$PROJECT_DIR$/Lesson3_TimeComplexity_FrgJmp/Lesson3_TimeComplexity_FrgJmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3_TimeComplexity_PermMissingElem/Lesson3_TimeComplexity_PermMissingElem.iml" filepath="$PROJECT_DIR$/Lesson3_TimeComplexity_PermMissingElem/Lesson3_TimeComplexity_PermMissingElem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3_TimeComplexity_TapeEquilibrum/Lesson3_TimeComplexity_TapeEquilibrum.iml" filepath="$PROJECT_DIR$/Lesson3_TimeComplexity_TapeEquilibrum/Lesson3_TimeComplexity_TapeEquilibrum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4_CountingElements_PermCheck/Lesson4_CountingElements_PermCheck.iml" filepath="$PROJECT_DIR$/Lesson4_CountingElements_PermCheck/Lesson4_CountingElements_PermCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4_FrogRiverOne/Lesson4_FrogRiverOne.iml" filepath="$PROJECT_DIR$/Lesson4_FrogRiverOne/Lesson4_FrogRiverOne.iml" />
     </modules>
   </component>
 </project>
