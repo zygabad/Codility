@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson3_TimeComplexity_TapeEquilibrum/Lesson3_TimeComplexity_TapeEquilibrum.iml" filepath="$PROJECT_DIR$/Lesson3_TimeComplexity_TapeEquilibrum/Lesson3_TimeComplexity_TapeEquilibrum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson4_CountingElements_PermCheck/Lesson4_CountingElements_PermCheck.iml" filepath="$PROJECT_DIR$/Lesson4_CountingElements_PermCheck/Lesson4_CountingElements_PermCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson4_FrogRiverOne/Lesson4_FrogRiverOne.iml" filepath="$PROJECT_DIR$/Lesson4_FrogRiverOne/Lesson4_FrogRiverOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4_MissingInteger/Lesson4_MissingInteger.iml" filepath="$PROJECT_DIR$/Lesson4_MissingInteger/Lesson4_MissingInteger.iml" />
     </modules>
   </component>
 </project>
