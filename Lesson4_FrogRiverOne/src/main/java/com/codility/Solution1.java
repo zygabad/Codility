@@ -13,20 +13,26 @@ public class Solution1 {
 
         for (int i = 0; i < A.length; i++) {
             int leafPosition = A[i];
-            if ((leafs[leafPosition - 1] == null) && (A[i] <= X && A[i] > 1)) {
-                leafs[leafPosition - 1] = i;
+            if (leafPosition <= X && leafPosition >= 1) {
+                if ((leafs[leafPosition - 1] == null)) {
+                    leafs[leafPosition - 1] = i;
+                }
             }
         }
 
-        for (Integer value : leafs) {
-            if ((value != null)&&(value + 1 > max)) {
+        if (X <= A.length ) {
+            for (Integer value : leafs) {
+                if ((value != null) && (value + 1 > max)) {
                     max = value;
+                } else {
+                    max = -1;
                 }
             }
+        }
 
         return max;
     }
 
-    }
+}
 
 

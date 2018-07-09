@@ -38,11 +38,11 @@ public class SolutionTest {
     public void testN3_3() {
         //given
         int[] A = {2, 1, 3};
-        int X = 2;
+        int X = 3;
         //when
         int result = executeSolution(X, A);
         //then
-        assertEquals(1, result);
+        assertEquals(2, result);
     }
 
     @Test
@@ -71,11 +71,11 @@ public class SolutionTest {
     public void testN3_6() {
         //given
         int[] A = {2, 1, 1};
-        int X = 3;
+        int X = 2;
         //when
         int result = executeSolution(X, A);
         //then
-        assertEquals(-1, result);
+        assertEquals(1, result);
     }
 
     @Test
@@ -122,7 +122,18 @@ public class SolutionTest {
         assertEquals(6, result);
     }
 
+    @Test
+    public void testCodility2() {
+        //given
+        int[] A = {2, 2, 2, 2, 2};
+        int X = 2;
+        //when
+        int result = executeSolution(X, A);
+        //then
+        assertEquals(-1, result);
+    }
+
     private int executeSolution(int X, int[] A) {
-        return new Solution1().solution(X, A);
+        return new Solution2().solution(X, A);
     }
 }
