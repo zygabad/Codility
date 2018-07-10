@@ -10,7 +10,6 @@ import java.util.Arrays;
 
 public class Solution2 {
     public int solution(int[] A) {
-
         Arrays.sort(A);
 
         for (int i = 0; i < A.length; i++) {
@@ -22,6 +21,11 @@ public class Solution2 {
         }
 
         if (A[A.length - 1] <= 0) {
+            return 1;
+        }
+        if (A.length == 1 && A[0] > 0) {
+            return A[0] - 1;
+        } else if (A.length == 1 && A[0] <= 0) {
             return 1;
         }
         return A[A.length - 1] + 1;

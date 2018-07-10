@@ -15,7 +15,27 @@ public class SolutionTest {
     @Test
     public void test5_1() {
         //given
-        int[] A = { 3, 6, 4, 1, 2};
+        int[] A = {3, 6, 4, 1, 2};
+        //when
+        int result = solution(A);
+        //then
+        assertEquals(5, result);
+    }
+
+    @Test
+    public void test5_2() {
+        //given
+        int[] A = {-3, -6, 4, 1, 2};
+        //when
+        int result = solution(A);
+        //then
+        assertEquals(3, result);
+    }
+
+    @Test
+    public void test6_1() {
+        //given
+        int[] A = {1, 2, 3, 4, 35, 45};
         //when
         int result = solution(A);
         //then
@@ -52,8 +72,28 @@ public class SolutionTest {
         assertEquals(1, result);
     }
 
+    @Test
+    public void testCodility_3_1() {
+        //given
+        int[] A = {-1, 0, 1};
+        //when
+        int result = solution(A);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    public void testCodility_3_2() {
+        //given
+        int[] A = {90, 91, 92, 93};
+        //when
+        int result = solution(A);
+        //then
+        assertEquals(1, result);
+    }
+
     private int solution(int[] A) {
-        return new Solution2().solution(A);
+        return new Solution3().solution(A);
     }
 
 }
