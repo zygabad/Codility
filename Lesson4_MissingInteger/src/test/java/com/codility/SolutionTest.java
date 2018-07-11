@@ -93,7 +93,7 @@ public class SolutionTest {
     }
 
     private int solution(int[] A) {
-        return new Solution3().solution(A);
+        return new Solution5().solution(A);
     }
 
 }
