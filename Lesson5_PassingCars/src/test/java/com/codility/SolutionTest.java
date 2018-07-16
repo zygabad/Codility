@@ -49,7 +49,7 @@ public class SolutionTest {
         //when
         int result = solution(A);
         //then
-        assertEquals(1, result);
+        assertEquals(0, result);
     }
 
     @Test
@@ -89,7 +89,7 @@ public class SolutionTest {
         //when
         int result = solution(A);
         //then
-        assertEquals(2, result);
+        assertEquals(0, result);
     }
 
     @Test
@@ -104,6 +104,6 @@ public class SolutionTest {
 
 
     private int solution(int[] A) {
-        return new Solution1().solution(A);
+        return new Solution3().solution(A);
     }
 }
