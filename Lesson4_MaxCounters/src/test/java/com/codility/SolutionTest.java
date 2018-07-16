@@ -2,6 +2,7 @@ package com.codility;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -19,12 +20,12 @@ public class SolutionTest {
         int N = 5;
         int[] expectedArray = {3, 2, 2, 4, 2};
         //when
-        int[] retult = executeSolution(N, A);
+        int[] retsult = executeSolution(N, A);
         //then
-        assertEquals(retult, expectedArray);
+        assertArrayEquals(retsult, expectedArray);
     }
 
     private int[] executeSolution(int N, int[] A) {
-        return new Solution1().solution(N, A);
+        return new Solution4().solution(N, A);
     }
 }

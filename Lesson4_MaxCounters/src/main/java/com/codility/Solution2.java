@@ -1,12 +1,14 @@
 package com.codility;
 
+import java.util.Arrays;
+
 /**
  * Place description here.
  *
  * @author Y08L@nykredit.dk
  */
-//CODILITY 77 100(correctness) 60(perf)
-public class Solution1 {
+//CODILITY 77 100 60  for -> Arrays.fill(array, int)
+public class Solution2 {
     public int[] solution(int N, int[] A) {
         int[] countersArray = new int[N];
         int maxCounterState = 0;
@@ -18,12 +20,11 @@ public class Solution1 {
                     maxCounterState = countersArray[value - 1];
                 }
             } else if (value == N + 1) {
-                for (int i = 0; i < countersArray.length; i++) {
-                    countersArray[i] = maxCounterState;
+                Arrays.fill(countersArray, maxCounterState);
                 }
             }
-        }
-
         return countersArray;
     }
-}
+
+    }
+
