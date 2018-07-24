@@ -21,12 +21,24 @@ public class SolutionTest {
         //when
         int[] result = executeSolution(S, P , Q);
         //done
-        assertArrayEquals(result, new int[]{2, 4, 1});
+        assertArrayEquals(new int[]{2, 4, 1}, result);
     }
 
-    private int[] executeSolution(String s, int[] p, int[] q) {
+    @Test
+    public void test1() {
+        //given
+        String S = "CGA";
+        int[] P = {0, 1, 2};
+        int[] Q = {0, 2, 2};
+        //when
+        int[] result = executeSolution(S, P , Q);
+        //done
+        assertArrayEquals(new int[]{2, 1, 1}, result);
+    }
 
-        return p;
+
+    private int[] executeSolution(String s, int[] p, int[] q) {
+        return new Solution3().solution(s, p, q);
     }
 
 }
