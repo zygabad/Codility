@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson4_MissingInteger/Lesson4_MissingInteger.iml" filepath="$PROJECT_DIR$/Lesson4_MissingInteger/Lesson4_MissingInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson5_CountDiv/Lesson5_CountDiv.iml" filepath="$PROJECT_DIR$/Lesson5_CountDiv/Lesson5_CountDiv.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson5_GenomicRangeQuery/Lesson5_GenomicRangeQuery.iml" filepath="$PROJECT_DIR$/Lesson5_GenomicRangeQuery/Lesson5_GenomicRangeQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5_MinAvgTwoSlices/Lesson5_MinAvgTwoSlices.iml" filepath="$PROJECT_DIR$/Lesson5_MinAvgTwoSlices/Lesson5_MinAvgTwoSlices.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson5_PassingCars/Lesson5_PassingCars.iml" filepath="$PROJECT_DIR$/Lesson5_PassingCars/Lesson5_PassingCars.iml" />
     </modules>
   </component>

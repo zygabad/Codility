@@ -5,7 +5,7 @@ package com.codility;
  *
  * @author Y08L@nykredit.dk
  */
-
+//TODO performance to improove from 0 to 100
 public class Solution3 {
     public int[] solution(String S, int[] P, int[] Q) {
         int[] result = new int[P.length];
