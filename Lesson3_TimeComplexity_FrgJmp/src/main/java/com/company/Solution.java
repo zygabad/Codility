@@ -50,6 +50,7 @@ public class Solution {
     }
 
     public int solution5(int X, int Y, int D) {
+
         return (int)Math.ceil((double)(Y - X) / D);
     }
 

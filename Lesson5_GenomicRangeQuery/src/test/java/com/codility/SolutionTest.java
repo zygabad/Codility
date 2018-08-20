@@ -49,7 +49,7 @@ public class SolutionTest {
     }
 
     private int[] executeSolution(String s, int[] p, int[] q) {
-        return new Solution3().solution(s, p, q);
+        return new Solution4().solution(s, p, q);
     }
 
 }
